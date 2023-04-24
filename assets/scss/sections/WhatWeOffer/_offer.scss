@@ -1,0 +1,76 @@
+main .offer {
+   
+    width: 100%;
+    padding: 60px 0;
+    // height: 100vh;
+    border-bottom: 3px solid;
+    background-color: #1D809F;
+
+    .offer-texts {
+        text-align: center;
+
+        span {
+            color: #fd7e14;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 2.5em;
+            color: white;
+            text-align: center;
+        }
+    }
+
+    .offer-container {
+        margin: 0 auto;
+        width: 80%;
+        height: 300px;
+        // border: 2px solid blue;
+        display: flex;
+        flex-wrap: wrap;
+        
+
+
+        .col-3 {
+            width: 20%;
+            // border: 1px solid hotpink;
+            text-align: center;
+            margin-bottom: 40px;
+            margin: 0 auto;
+
+            @mixin for-tablet-landscape-up{
+                .col-3{
+                  width: 50%;
+                }
+            
+            .card {
+                border: 1px solid black;
+                height: 100%;     
+            }       
+        }
+
+            span {
+                padding: 30px 35px;
+                background-color: #fff;
+                color: #1D809F;
+                height: 7rem;
+                width: 7rem;
+                border-radius: 50%;
+                line-height: 7.5rem;
+                font-size: 2.25rem;
+            }
+
+            h3 {
+                font-size: 1.5em;
+                color: white;
+            }
+
+            p {
+                color: #e9ecef;
+                line-height: 2em;
+            }
+
+        }
+
+    }
+}

@@ -1,0 +1,26 @@
+footer{
+    font-family: Open Sans;
+    margin-top: 100px;
+    text-align: center;
+
+    .icons i{
+        color: rgba(255, 255, 255, 0.703);
+        font-size: 30px;
+        padding: 20px;
+        background-color: #1D809F;
+        border-radius: 50%;
+        transition: .4s;
+        margin-bottom: 30px;
+        margin-right: 10px;
+
+        &:hover{
+            cursor: pointer;
+            background-color: #0a4c60;
+        }
+    }
+
+    p{
+        color: gray;
+        padding: 20px;
+    }
+}

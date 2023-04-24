@@ -1,0 +1,97 @@
+
+.container{
+    width: 100%;
+    margin: auto;
+    background-color: $header_bgc;
+}
+
+nav{
+    
+    width: 100%;
+    padding: 30px 100px;
+    position: fixed;
+    z-index: 999;
+
+    @include for-tablet-landscape-up {
+        padding-right: 20px;
+        padding-left: 20px;
+        
+    }
+
+    .nav-wrapper{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .nav_left{
+            h2{
+                font-size: 25px;
+                color: $primary-orange;
+                font-family: Philosopher;
+
+                &:hover{
+                    cursor: pointer;
+                }
+            }
+
+
+        }
+
+        .nav_right{
+            ul{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+
+                @include for-tablet-landscape-up {
+                    display: none;
+                  } 
+
+
+                li{
+                    margin-right: 30px;
+                    font-family: Open Sans;
+
+                    &:first-child a{
+                        color: $primary-orange;
+                    }
+                    a{ 
+                        font-size: 18px;
+                        color: #fff;
+                        letter-spacing: 0.0625em;
+                        transition: .4s;
+                        text-transform: uppercase;
+                        text-decoration: none;
+
+                        &:hover{
+                            color: $primary-orange;
+                        }
+                    }
+
+                }
+
+                
+            }
+
+               
+            button{
+                    
+                    display: none;
+                    background-color: transparent;
+                    border: 1px solid gray;
+                    border-radius:5px ;
+                    color: grey;
+                    padding: 8px 15px;
+                    align-items: center;
+                    text-transform: uppercase;
+                    
+
+                    @include for-tablet-landscape-up {
+                        display: inline-block;
+                        margin-left: 20px;
+                    }
+                }
+
+        }
+    }
+}

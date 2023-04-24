@@ -1,0 +1,43 @@
+
+// body{
+//     height: 200vh;
+// }
+.hero{
+    font-family: Open Sans;
+    width: 100%;
+    padding: 200px 0;
+    background-image: url("https://startbootstrap.github.io/startbootstrap-stylish-portfolio/assets/img/bg-masthead.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.hero article{
+    padding-top: 100px ;
+    text-align: center;
+ 
+
+    h1{
+        font-size:6em ;
+    }
+    h2{
+        font-size: 2em;
+        font-style: italic;
+    }
+
+    button{
+        background-color: #1D809F;
+        color: white;
+        padding: 20px 40px;
+        border: none;
+        border-radius: 7px;
+
+        &:hover{
+            background-color: #1d819fd7;
+            cursor: pointer;
+        }
+    }
+}
+
+
+

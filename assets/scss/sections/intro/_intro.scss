@@ -1,0 +1,42 @@
+main .intro{
+    font-family: Open Sans;
+width: 100%;
+    padding: 100px 0;
+    // border-bottom: 5px solid;
+
+    article{
+        text-align: center;
+
+        h2{
+            font-size: 2rem;
+        }
+        p{
+            font-size:1.25em ;
+            color: #595d61;
+            letter-spacing: 0.8px;
+            line-height: 2em;
+
+            a{
+                text-decoration: underline;
+                color: #1D809f;
+            }
+        }
+
+        
+            button{
+                line-height: 2em;
+                background-color: #222;
+                color: white;
+                padding: 20px 40px;
+                border: none;
+                border-radius: 7px;
+                font-size: 15px;
+        
+                &:hover{
+                    background-color: #222222d1;
+                    cursor: pointer;
+                }
+            
+        }
+    }
+}

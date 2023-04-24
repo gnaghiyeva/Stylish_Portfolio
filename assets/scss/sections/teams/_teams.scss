@@ -1,0 +1,68 @@
+main .our_team{
+    font-family: Open Sans;
+    text-align: center;
+    width: 100%;
+    background-color: #F8F9FA;
+    padding: 50px 0;
+
+    h1{
+        font-size: 40px;
+    }
+    p{
+        color: rgb(182, 182, 182);
+    }
+    
+    .container{    
+        background-color: #F8F9FA;
+    //  border: 2px solid green;
+     display: flex;
+     justify-content: center;
+
+        .col-4{
+            
+            // border: 2px solid gray;
+            width: 20%;
+            margin-right: 30px;
+
+     .card{
+     margin: 0 auto;
+     text-align: center;
+     width: 50%;
+     border: 7px solud green;
+     padding: 40px 0;
+
+     img{
+        width: 100%;
+        border-radius: 50%;
+        border: 6px solid rgb(182, 182, 182);
+     }
+
+     .texts{
+        padding: 10px 0;
+
+        h3{
+            font-weight: 800;
+        }
+        span{
+            color: rgb(188, 186, 186);
+        };
+     }
+
+     .icons i{
+        background-color: black;
+        color: white;
+        padding: 5px;
+        border-radius: 50%;
+        transition: .4s;
+
+        &:hover{
+            cursor: pointer;
+            background-color: rgb(88, 87, 87);
+        }
+     }
+}
+   
+}
+
+ }
+}

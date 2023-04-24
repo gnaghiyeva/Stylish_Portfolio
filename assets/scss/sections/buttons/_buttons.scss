@@ -1,0 +1,41 @@
+main .buttons{
+    font-family: Open Sans;
+    margin-top: 100px;
+    width: 100%;
+    padding: 110px 0;
+    background-color: #1D809F;
+    text-align: center;
+
+    h2{
+        font-size:30px ;
+        color: white;
+    }
+
+    #buttons-button button{
+        margin-top: 20px;
+        padding: 1.25rem 2.5rem;
+        border-radius: 7px;
+        border: none;   
+        margin-right: 15px;   
+    }
+    
+    #buttons-button #click{
+        background-color: white;
+        transition: .4s;
+
+        &:hover{
+            background-color: rgb(194, 186, 186);
+            cursor: pointer;
+        }
+    }
+    #buttons-button #look{
+        background-color: black;
+        color: white;
+        transition: .4s;
+      &:hover{
+        background-color: rgb(194, 186, 186);
+        cursor: pointer;
+      }
+    }
+
+}

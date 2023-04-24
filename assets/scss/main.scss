@@ -1,0 +1,16 @@
+@import "./base/reset";
+@import "./abstracts/mixins";
+@import "./abstracts/variables";
+@import "./grid.scss";
+@import "./header/header";
+
+@import "./sections/buttons/buttons";
+@import "./sections/cards/cards";
+@import "./sections/footer/footer";
+@import "./sections/hero/hero";
+@import "./sections/intro/intro";
+@import "./sections/map/map";
+@import "./sections/recentProjects/recent";
+@import "./sections/welcomewebsite/welcome";
+@import "./sections/WhatWeOffer/offer";
+@import "./sections/teams/teams";
